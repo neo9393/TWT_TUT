@@ -1,0 +1,55 @@
+<html>
+
+<body>
+	<form>
+    What kind of  car would you like to buy?<br><br>
+            &nbsp<input type="radio" name="car" value="Proton" checked>Proton
+                  <input type="radio" name="car" value="Honda"> Honda
+                  <input type="radio" name="car" value="Ferari"> Ferari
+                  <input type="radio" name="car" value="Ford"> Ford
+    <br><br>
+    What colour do you want on your car?
+    <br>
+              &nbsp&nbsp<select name="color">
+                         <option value="White">White</option>
+                         <option value="Red">Red</option>
+                         <option value="Black">Black</option>
+                         <option value="Blue">Blue</option>
+                        </select>
+  Other: <input type="text" name="other"><br><br>
+  Enter of your preferred car:<br>
+           <textarea name="message" rows="5" cols="60"></textarea><br><br>
+  Tell us how to get in touch with you:
+  <br><br>
+<table>
+		<tr>
+             <td>Name</td>
+            <td><input type="text" name="name"></td>
+
+    </tr>
+    <tr>
+            <td> E-mail</td>
+            <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+            <td>Tel</td>
+            <td><input type="text" name="Tel"></td>
+    </tr>
+    <tr>
+            <td>FAX</td>
+            <td> <input type="text" name="fax"></td>
+    </tr>
+</table>
+<br><br>
+        <input type="checkbox" name="contact">Please contact me as soon as possible regarding this matter.<br><br>
+        
+
+
+        <input type="button"  value="Send">
+        <input type="button"  value="Clear">
+        
+        
+	</form>
+</body>
+
+</html>
